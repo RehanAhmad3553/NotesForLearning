@@ -3,6 +3,7 @@ package com.quizapplications.firstdesignclass;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.quizapplications.firstdesignclass.databinding.ActivityMainBinding;
 
@@ -17,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
 
-
-
+        Toast.makeText(this, "abcxyz", Toast.LENGTH_SHORT).show();
 
 
     }
