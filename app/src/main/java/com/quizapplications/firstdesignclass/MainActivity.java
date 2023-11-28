@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
 
-        Toast.makeText(this, "abcxyz", Toast.LENGTH_SHORT).show();
+
 
 
     }
